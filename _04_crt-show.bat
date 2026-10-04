@@ -1,2 +1,0 @@
-certutil -store "Root"
-pause

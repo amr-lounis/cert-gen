@@ -1,4 +1,0 @@
-openssl x509 -in  file_example.crt -text
-openssl s_client -connect ${REMHOST}:${REMPORT}
-openssl s_client -connect www.example.com:443
-openssl s_client -connect www.example.com:443 | openssl x509 -outform pem

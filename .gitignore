@@ -1,8 +1,46 @@
-#dirs
-/bin/
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
 
-#extension
+# Distribution / build
+build/
+dist/
+*.egg-info/
+*.egg
+*.spec
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Test / cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Generated certificates and keys (do not commit private keys)
+certs/
+certs*/
+*.key
 *.crt
 *.csr
-*.srl
-*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
